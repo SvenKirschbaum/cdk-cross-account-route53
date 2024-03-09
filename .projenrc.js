@@ -24,5 +24,6 @@ const project = new awscdk.AwsCdkConstructLibrary({
     '@aws-sdk/credential-providers',
     '@types/aws-lambda',
   ],
+  depsUpgrade: false,
 });
 project.synth();
