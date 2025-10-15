@@ -12,7 +12,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   description: 'CDK Construct to allow creation of Route 53 records in a different account',
   repositoryUrl: 'https://github.com/SvenKirschbaum/cdk-cross-account-route53',
   cdkVersion: 'v2.82.0',
-  jsiiVersion: '~5.3.0',
+  jsiiVersion: '~5.9.0',
   keywords: [
     'aws',
     'aws-cdk',
@@ -47,8 +47,9 @@ const project = new awscdk.AwsCdkConstructLibrary({
   releaseTrigger: ReleaseTrigger.scheduled({
     schedule: '15 20 * * 6',
   }),
-  workflowNodeVersion: '20.x',
+  workflowNodeVersion: '24.x',
 });
+
 // Remove default options defined via parent template
 project.tryFindObjectFile('renovate.json5').patch(
   JsonPatch.remove('/packageRules'),
