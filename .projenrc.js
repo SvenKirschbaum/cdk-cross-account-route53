@@ -1,6 +1,7 @@
 const {
   awscdk,
   JsonPatch,
+  javascript,
 } = require('projen');
 const { ReleaseTrigger } = require('projen/lib/release');
 
@@ -49,6 +50,13 @@ const project = new awscdk.AwsCdkConstructLibrary({
   }),
   workflowNodeVersion: '24.x',
 });
+
+new javascript.UpgradeDependencies(project, {
+  include: ['projen'],
+  taskName: 'upgrade-projen',
+  workflow: true,
+});
+
 
 // Remove default options defined via parent template
 project.tryFindObjectFile('renovate.json5').patch(
