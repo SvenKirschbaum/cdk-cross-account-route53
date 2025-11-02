@@ -62,7 +62,7 @@ Returns a string representation of this construct.
 
 ---
 
-##### ~~`isConstruct`~~ <a name="isConstruct" id="@fallobst22/cdk-cross-account-route53.CrossAccountRoute53RecordSet.isConstruct"></a>
+##### `isConstruct` <a name="isConstruct" id="@fallobst22/cdk-cross-account-route53.CrossAccountRoute53RecordSet.isConstruct"></a>
 
 ```typescript
 import { CrossAccountRoute53RecordSet } from '@fallobst22/cdk-cross-account-route53'
@@ -71,6 +71,20 @@ CrossAccountRoute53RecordSet.isConstruct(x: any)
 ```
 
 Checks if `x` is a construct.
+
+Use this method instead of `instanceof` to properly detect `Construct`
+instances, even when the construct library is symlinked.
+
+Explanation: in JavaScript, multiple copies of the `constructs` library on
+disk are seen as independent, completely different libraries. As a
+consequence, the class `Construct` in each copy of the `constructs` library
+is seen as a different class, and an instance of one class will not test as
+`instanceof` the other class. `npm install` will not create installations
+like this, but users may manually symlink construct libraries together or
+use a monorepo tool: in those cases, multiple copies of the `constructs`
+library can be accidentally installed, and `instanceof` will behave
+unpredictably. It is safest to avoid using `instanceof`, and using
+this type-testing method instead.
 
 ###### `x`<sup>Required</sup> <a name="x" id="@fallobst22/cdk-cross-account-route53.CrossAccountRoute53RecordSet.isConstruct.parameter.x"></a>
 
@@ -161,7 +175,7 @@ Returns a string representation of this construct.
 
 ---
 
-##### ~~`isConstruct`~~ <a name="isConstruct" id="@fallobst22/cdk-cross-account-route53.CrossAccountRoute53Role.isConstruct"></a>
+##### `isConstruct` <a name="isConstruct" id="@fallobst22/cdk-cross-account-route53.CrossAccountRoute53Role.isConstruct"></a>
 
 ```typescript
 import { CrossAccountRoute53Role } from '@fallobst22/cdk-cross-account-route53'
@@ -170,6 +184,20 @@ CrossAccountRoute53Role.isConstruct(x: any)
 ```
 
 Checks if `x` is a construct.
+
+Use this method instead of `instanceof` to properly detect `Construct`
+instances, even when the construct library is symlinked.
+
+Explanation: in JavaScript, multiple copies of the `constructs` library on
+disk are seen as independent, completely different libraries. As a
+consequence, the class `Construct` in each copy of the `constructs` library
+is seen as a different class, and an instance of one class will not test as
+`instanceof` the other class. `npm install` will not create installations
+like this, but users may manually symlink construct libraries together or
+use a monorepo tool: in those cases, multiple copies of the `constructs`
+library can be accidentally installed, and `instanceof` will behave
+unpredictably. It is safest to avoid using `instanceof`, and using
+this type-testing method instead.
 
 ###### `x`<sup>Required</sup> <a name="x" id="@fallobst22/cdk-cross-account-route53.CrossAccountRoute53Role.isConstruct.parameter.x"></a>
 
@@ -260,7 +288,7 @@ Returns a string representation of this construct.
 
 ---
 
-##### ~~`isConstruct`~~ <a name="isConstruct" id="@fallobst22/cdk-cross-account-route53.Route53User.isConstruct"></a>
+##### `isConstruct` <a name="isConstruct" id="@fallobst22/cdk-cross-account-route53.Route53User.isConstruct"></a>
 
 ```typescript
 import { Route53User } from '@fallobst22/cdk-cross-account-route53'
@@ -269,6 +297,20 @@ Route53User.isConstruct(x: any)
 ```
 
 Checks if `x` is a construct.
+
+Use this method instead of `instanceof` to properly detect `Construct`
+instances, even when the construct library is symlinked.
+
+Explanation: in JavaScript, multiple copies of the `constructs` library on
+disk are seen as independent, completely different libraries. As a
+consequence, the class `Construct` in each copy of the `constructs` library
+is seen as a different class, and an instance of one class will not test as
+`instanceof` the other class. `npm install` will not create installations
+like this, but users may manually symlink construct libraries together or
+use a monorepo tool: in those cases, multiple copies of the `constructs`
+library can be accidentally installed, and `instanceof` will behave
+unpredictably. It is safest to avoid using `instanceof`, and using
+this type-testing method instead.
 
 ###### `x`<sup>Required</sup> <a name="x" id="@fallobst22/cdk-cross-account-route53.Route53User.isConstruct.parameter.x"></a>
 
