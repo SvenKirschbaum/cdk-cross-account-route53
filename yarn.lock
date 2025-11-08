@@ -2768,9 +2768,9 @@ constructs@10.0.5:
   integrity sha512-IwOwekzrASFC3qt4ozCtV09rteAIAesuCGsW0p+uBfqHd2XcvA5CXqJjgf4eUqm6g8e/noXlVCMDWwC8GaLtrg==
 
 constructs@^10.0.0:
-  version "10.4.2"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.4.2.tgz#e875a78bef932cca12ea63965969873a25c1c132"
-  integrity sha512-wsNxBlAott2qg8Zv87q3eYZYgheb9lchtBfjHzzLHtXbttwSrHPs1NNQbBrmbb1YZvYg2+Vh0Dor76w4mFxJkA==
+  version "10.4.3"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.4.3.tgz#605f418f8cf8b4d18e06de05c9be7fb79e82d802"
+  integrity sha512-3+ZB67qWGM1vEstNpj6pGaLNN1qz4gxC1CBhEUhZDZk0PqzQWY65IzC1Doq17MGPa9xa2wJ1G/DJ3swU8kWAHQ==
 
 conventional-changelog-angular@^6.0.0:
   version "6.0.0"
@@ -5638,10 +5638,10 @@ process-nextick-args@~2.0.0:
   resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-2.0.1.tgz#7820d9b16120cc55ca9ae7792680ae7dba6d7fe2"
   integrity sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==
 
-projen@^0.98.4:
-  version "0.98.6"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.98.6.tgz#2957bb65e0b7660c63f6e68b39042327db62d57e"
-  integrity sha512-YR4tUn24D8BB16gGm3bjqVMj3NWbNG2sBmUv4M5Wvdv7t56hJ5Xo4fDGKVWzGGBvtSKIYtxC28gEt/4YXDKbwA==
+projen@^0.98.10:
+  version "0.98.10"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.98.10.tgz#d1bcd326a9c5fd36534224b9519920dfa46375f4"
+  integrity sha512-ovf0Iv0qw51xYL91JKii+t0UpKCL0Kf0Xy7LYOJ1RIt0kY581JX9QGqK7LfLXgK37gPncaXCOrpU6FgPtHL1Gg==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"
