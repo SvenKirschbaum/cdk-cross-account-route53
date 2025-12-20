@@ -35,13 +35,13 @@
     "organization": false
   },
   "devDependencies": {
-    "@aws-sdk/client-route-53": "3.948.0",
-    "@aws-sdk/client-sts": "3.948.0",
-    "@aws-sdk/credential-providers": "3.948.0",
+    "@aws-sdk/client-route-53": "3.953.0",
+    "@aws-sdk/client-sts": "3.953.0",
+    "@aws-sdk/credential-providers": "3.953.0",
     "@stylistic/eslint-plugin": "^2",
     "@types/aws-lambda": "8.10.159",
     "@types/jest": "30.0.0",
-    "@types/node": "24.10.3",
+    "@types/node": "24.10.4",
     "@typescript-eslint/eslint-plugin": "^8",
     "@typescript-eslint/parser": "^8",
     "aws-cdk-lib": "2.82.0",
