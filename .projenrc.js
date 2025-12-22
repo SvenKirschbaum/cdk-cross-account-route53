@@ -36,6 +36,9 @@ const project = new awscdk.AwsCdkConstructLibrary({
       'extends': [
         'github>SvenKirschbaum/renovate-config',
       ],
+      'lockFileMaintenance': {
+        enabled: false,
+      },
       'github-actions': {
         enabled: false,
       },
