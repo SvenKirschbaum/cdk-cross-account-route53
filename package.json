@@ -35,9 +35,9 @@
     "organization": false
   },
   "devDependencies": {
-    "@aws-sdk/client-route-53": "3.968.0",
-    "@aws-sdk/client-sts": "3.968.0",
-    "@aws-sdk/credential-providers": "3.968.0",
+    "@aws-sdk/client-route-53": "3.969.0",
+    "@aws-sdk/client-sts": "3.969.0",
+    "@aws-sdk/credential-providers": "3.969.0",
     "@stylistic/eslint-plugin": "^2",
     "@types/aws-lambda": "8.10.159",
     "@types/jest": "30.0.0",
