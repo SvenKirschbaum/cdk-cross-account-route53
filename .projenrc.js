@@ -61,6 +61,8 @@ new javascript.UpgradeDependencies(project, {
   workflow: true,
 });
 
+project.eslint?.allowDefaultProjectFiles('.projenrc.js');
+
 
 // Remove default options defined via parent template
 project.tryFindObjectFile('renovate.json5').patch(
