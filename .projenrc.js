@@ -53,6 +53,11 @@ const project = new awscdk.AwsCdkConstructLibrary({
   }),
   workflowNodeVersion: '24.x',
   npmTrustedPublishing: true,
+  tsconfigDev: {
+    compilerOptions: {
+      isolatedModules: true,
+    },
+  },
 });
 
 new javascript.UpgradeDependencies(project, {
