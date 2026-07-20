@@ -60,7 +60,7 @@
     "jsii-rosetta": "~5.9.0",
     "projen": "^0.101.16",
     "ts-jest": "29.4.11",
-    "typescript": "6.0.3"
+    "typescript": "7.0.2"
   },
   "peerDependencies": {
     "aws-cdk-lib": "^v2.82.0",
