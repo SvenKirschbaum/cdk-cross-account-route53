@@ -3126,9 +3126,9 @@ fast-xml-parser@^5.2.5:
     strnum "^2.1.0"
 
 fastq@^1.6.0:
-  version "1.20.1"
-  resolved "https://registry.yarnpkg.com/fastq/-/fastq-1.20.1.tgz#ca750a10dc925bc8b18839fd203e3ef4b3ced675"
-  integrity sha512-GGToxJ/w1x32s/D2EKND7kTil4n8OVk/9mycTc4VDza13lOvpUZTGX3mFSCtV9ksdGBVzvsyAVLM6mHFThxXxw==
+  version "1.20.3"
+  resolved "https://registry.yarnpkg.com/fastq/-/fastq-1.20.3.tgz#7ab8731e647b56abcfeee997dae333ca3ee1d04d"
+  integrity sha512-XKv5nnLs6nLF71NgiKJLIZFLkPyIEuOselLG7ujZnGrRfQK8HpvY+WqKhAJUAdLomwVHErVS4LfxFlPq0/FTAw==
   dependencies:
     reusify "^1.0.4"
 
@@ -5203,10 +5203,10 @@ process-nextick-args@~2.0.0:
   resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-2.0.1.tgz#7820d9b16120cc55ca9ae7792680ae7dba6d7fe2"
   integrity sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==
 
-projen@^0.103.5:
-  version "0.103.5"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.103.5.tgz#f9f63256cca57a4612a5481f8fa4672be29f272b"
-  integrity sha512-UkJnvWaW1pxtfPu1CPGZbx6hgUeur2un59y6mbID9eemqp9R9sP/LlN32+z35kv6HOjPJGldyccHmBU6uJluVQ==
+projen@^0.103.19:
+  version "0.103.19"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.103.19.tgz#dfccbf3c7d7f3bc962eda284389be517caf73405"
+  integrity sha512-vfXSicFngBmMtmIe+mOqrqLF+dfbmgey2jBp9KgkpqvGcvNddJmOsvXwg5dgfXaMpzH62gbTdFNT7unuakU8nw==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"
