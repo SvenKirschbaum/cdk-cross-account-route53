@@ -36,13 +36,13 @@
     "organization": false
   },
   "devDependencies": {
-    "@aws-sdk/client-route-53": "3.1138.0",
-    "@aws-sdk/client-sts": "3.1138.0",
-    "@aws-sdk/credential-providers": "3.1138.0",
+    "@aws-sdk/client-route-53": "3.1143.0",
+    "@aws-sdk/client-sts": "3.1143.0",
+    "@aws-sdk/credential-providers": "3.1143.0",
     "@stylistic/eslint-plugin": "^2",
-    "@types/aws-lambda": "8.10.163",
+    "@types/aws-lambda": "8.10.164",
     "@types/jest": "30.0.0",
-    "@types/node": "24.13.6",
+    "@types/node": "24.19.0",
     "@typescript-eslint/eslint-plugin": "^8",
     "@typescript-eslint/parser": "^8",
     "aws-cdk-lib": "2.259.0",
@@ -59,7 +59,7 @@
     "jsii-pacmak": "1.140.0",
     "jsii-rosetta": "~5.9.0",
     "projen": "^0.103.27",
-    "ts-jest": "29.4.13",
+    "ts-jest": "29.4.14",
     "typescript": "6.0.3"
   },
   "peerDependencies": {
