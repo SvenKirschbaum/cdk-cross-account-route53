@@ -4830,10 +4830,10 @@ pretty-format@30.5.1:
     "@jest/schemas" "30.5.0"
     ansi-styles "^5.2.0"
 
-projen@^0.103.27:
-  version "0.103.27"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.103.27.tgz#9566a171ff5037dee04158b194e831b97411cdb2"
-  integrity sha512-dtcvFZOIhQ+AYOeOhSDSReKCgcYbrAFsKZMM+JzlA9v0icegQAolZDHhdNTDaSYODfRSgVzE+U/B2jfdImSsNQ==
+projen@^0.104.14:
+  version "0.104.14"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.104.14.tgz#de4d8f2a2cfcf857b9ec2c4c00f09d74f6de7afa"
+  integrity sha512-mK1MEk4WJD32lvo4JqyqjZUYJ2rz1ju2OQSw0aJoO1AyZzdmEbESTT56amQeg54l0BCG4pSmRD2uxjlqYx3Acg==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"
