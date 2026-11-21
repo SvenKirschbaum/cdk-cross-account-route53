@@ -29,10 +29,10 @@
     jsonschema "^1.5.0"
     semver "^7.8.5"
 
-"@aws-sdk/client-route-53@3.1171.0":
-  version "3.1171.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/client-route-53/-/client-route-53-3.1171.0.tgz#8a085b75842f351f6f760a36795e020eca9c7c9d"
-  integrity sha512-AKGNHNXKUwjmCu9lhhAkzE/ylIqbYs3cxPJKBsNkyFgBDzYNPG9U3tJOJ6yNiWC4wuvT7v80v7b+upMF25POQg==
+"@aws-sdk/client-route-53@3.1172.0":
+  version "3.1172.0"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/client-route-53/-/client-route-53-3.1172.0.tgz#37543f3f2edddd3f26f70d9de9a1ceb51bc5521b"
+  integrity sha512-HpAzOQoR4FMRfks6dr6YbBL6G7Xssf51iiNv0mKPsZGE+kvLRFqQRa722RyfL+CiNPLs3R5Pdbwecf42RHIZqQ==
   dependencies:
     "@aws-sdk/core" "^3.981.0"
     "@aws-sdk/credential-provider-node" "^3.972.97"
@@ -44,10 +44,10 @@
     "@smithy/types" "^4.20.0"
     tslib "^2.6.2"
 
-"@aws-sdk/client-sts@3.1171.0":
-  version "3.1171.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/client-sts/-/client-sts-3.1171.0.tgz#101e828b191b106d6374425a4b6a498ab095fc7b"
-  integrity sha512-rMSkqzdVg6HJdC7CyeKMmdYu49AtqgwGQYq9a4VD7Zf5ejHicqiFBLMwDj0KnjRWs80xfiLOaR8Jz6L2I8+NYg==
+"@aws-sdk/client-sts@3.1172.0":
+  version "3.1172.0"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/client-sts/-/client-sts-3.1172.0.tgz#ca590e61276c618b467cfc28492906dbcc74cdb6"
+  integrity sha512-wzBD/Lsn1nBldokWhoA6l9scJDoi9yopBjvIH3avyQT5VaIiowd5wHTeWYOr5ZBef8cSE/5ZkZPqM81THHNlNg==
   dependencies:
     "@aws-sdk/core" "^3.981.0"
     "@aws-sdk/credential-provider-node" "^3.972.97"
@@ -192,10 +192,10 @@
     "@smithy/types" "^4.20.0"
     tslib "^2.6.2"
 
-"@aws-sdk/credential-providers@3.1171.0":
-  version "3.1171.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/credential-providers/-/credential-providers-3.1171.0.tgz#2348bee461e6fde5bb2ec1ef29cf646397bb4edc"
-  integrity sha512-qYle3d+uQVo/DJNLDf+MC/8CHql+R8cR9lrJoEPzCU2IQ606YCGEPFj0AqEOpLE5IKEuzs020ngZghAChovZUw==
+"@aws-sdk/credential-providers@3.1172.0":
+  version "3.1172.0"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/credential-providers/-/credential-providers-3.1172.0.tgz#72d13e04069b94c08addcabeed55f8b397708c47"
+  integrity sha512-ntWcHM9L5YDcZaa5rRMUiXztubKefl0yRRFe29t+cG/2jKD7ZWJ0+JDQdZ+0g4/ps+TxucVrtwQhltibadubOw==
   dependencies:
     "@aws-sdk/core" "^3.981.0"
     "@aws-sdk/credential-provider-cognito-identity" "^3.972.83"
